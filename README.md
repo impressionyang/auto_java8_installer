@@ -2,6 +2,8 @@
 java 8 auto install script
 
 just run:
+
+
 sudo chmod +x java_8_install_script.sh
 
 

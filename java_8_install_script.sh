@@ -32,7 +32,7 @@ fi
 
 #$(cd `dirname $0`; pwd) 	#获取脚本当前位置
 echo "移动文件中............"
-sudo mv $(cd `dirname $0`; pwd)/jdk1.8.0_141 /usr/java
+sudo cp -r $(cd `dirname $0`; pwd)/jdk1.8.0_141 /usr/java
 
 #echo 可将内容写入文件 “”内的内容会被解释  ‘’内的内容不会被解释
 #将java配置写入环境变量中
